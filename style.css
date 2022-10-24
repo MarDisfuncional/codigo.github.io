@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    background-image: url(https://i.pinimg.com/564x/14/a0/31/14a0319b1b9bf8e096b10b6e57444416.jpg);
+    
+}
+ 
+*{
+    box-sizing: border-box;
+}
+ 
+.contenedor{
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+ 
+header{
+    background-color: rgb(131, 75, 116);
+    margin: 20px;
+    padding: 1x 100px;
+}
+ 
+header h1{
+    font-size: 40px;
+    color: rgb(255, 243, 220);
+    text-align: center;
+}
+ 
+div#primero{    
+    width: 1000px;
+    height: 500px;
+    background-color:rgb(190, 160, 130);
+    border: rgb(255, 255, 255) 2px solid;
+    box-shadow: 3px 3px 5px  rgb(224, 186, 59);
+   
+}
+ 
+div#segundo{
+    background-color: rgb(241, 227, 217);
+    margin: 40px 50px;
+    width: 900px;
+    height: 200px;
+    border: white 2px solid;
+    border-radius: 15px;
+}
+ 
+ 
+p{
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(60, 35, 78);
+    font-size: 17px;
+}
+ 
+h1#titulo{
+    color: rgb(243, 221, 221);
+    text-align: center;
+   font-family: cursive;
+    font-size: 40px;
+    padding: 10px 10px;
+    margin: 0px;
+    background-color: rgb(216, 155, 25);
+}
+ 
+input#msj{
+    border: 1px solid rgb(255, 255, 255) ;
+    border-radius: 15px;
+    width: 800px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(241, 227, 217);
+    display: flex;
+    margin-left: 80px;
+    color:blue;
+}
+ 
+ 
+button{
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+ 
+button:hover{
+    background-color: gray;
+}
+button#btn-cifrar{
+    margin-left: 260px;
+}
+ 
